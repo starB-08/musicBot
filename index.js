@@ -1,4 +1,5 @@
 //@ts-nocheck
+require("./keepAlive");
 const { Client, Events, GatewayIntentBits } = require("discord.js");
 const {
   joinVoiceChannel,
