@@ -12,7 +12,7 @@ const {
 } = require("@discordjs/voice");
 
 const youtubedl = require("youtube-dl-exec");
-const { token } = require("./config.json");
+const token = process.env.DISCORD_BOT_TOKEN;
 const prism = require("prism-media");
 const ffmpeg = require("ffmpeg-static");
 
